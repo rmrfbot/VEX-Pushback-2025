@@ -14,6 +14,8 @@
 
 using namespace vex;
 
+extern brain br;
+
 extern controller ct;
 
 // Left Motors

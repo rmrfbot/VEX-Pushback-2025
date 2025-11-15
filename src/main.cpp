@@ -10,9 +10,6 @@
 using namespace vex;
 using namespace std;
 
-// CONSTANT VARIABLES
-brain br;
-
 // Declares that this program is used for competition use
 competition Competition;
 

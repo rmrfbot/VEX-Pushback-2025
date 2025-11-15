@@ -1,8 +1,6 @@
 #include "globals.h"
 #include "vex.h"
 
-brain br;
-
 void colorCheck() {
     while(true) {
         vis1.takeSnapshot(redSig);
