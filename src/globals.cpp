@@ -5,14 +5,14 @@
 brain br;
 
 // LEFT MOTORS
-motor mt1 = motor(PORT1);
-motor mt2 = motor(PORT2);
-motor mt3 = motor(PORT3); // Back Motors
+motor mt1 = motor(PORT1, false);
+motor mt2 = motor(PORT2, false);
+motor mt3 = motor(PORT3, false); // Back Motors
 
 // RIGHT MOTORS
-motor mt4 = motor(PORT11);
-motor mt5 = motor(PORT12);
-motor mt6 = motor(PORT13); // Back Motors
+motor mt4 = motor(PORT11, true);
+motor mt5 = motor(PORT12, true);
+motor mt6 = motor(PORT13, true); // Back Motors
 
 // Vision Sensor
 vision vis1 = vision(PORT19);
